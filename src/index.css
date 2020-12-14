@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #ffffff !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+  margin-top: 30px;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #110e0e;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+.text_header_shade {
+  font-size: 30px;
+  font-family: 'Mitr', sans-serif;
+  font-weight: bolder;
+  margin-top: 160px;
+  margin-left: 460px;
+}
+.text_header_shade2 {
+  font-size: 30px;
+  font-family: 'Mitr', sans-serif;
+  font-weight: bolder;
+  margin-top: 90px;
+  margin-left: 460px;
+}
+.text_content1_shade1 {
+  font-size: 19px;
+  font-family: 'Mitr', sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.text_content2_shade1 {
+  font-size: 14px;
+  font-family: 'Mitr', sans-serif;
+  font-style: oblique;
+  margin-top: 30px;
+  margin-left: 1px;
+}
+
+.button_shade2 {
+    margin-top: 7px;
+    margin-left: 40rem;
+    padding: 8px 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Mitr', sans-serif;
+    background-color: white;
+    border: 2px solid #4CAF50;
+}
+.button_shade1 {
+  margin-top: 1px;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: 'Mitr', sans-serif;
+  background-color: white;
+  border: 2px solid #4CAF50;
+}
+
+.Buttonstyled.button{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+
+}
+.text_header_shade {
+  font-size: 28px;
+  font-family: 'Mitr', sans-serif;
+  font-weight: bolder;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.myProgress{
+  position: relative;
+  border-radius: 25px;
+  width: 62%;
+  height: 30px;
+  margin-left: 290px;
+  margin-top: 20px;
+  background-color: #ddd;
+}
+
+.myBar{
+  position: absolute;
+  border-radius: 25px;
+  width: 0%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+.label{
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
